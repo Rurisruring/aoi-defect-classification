@@ -216,3 +216,21 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# 資料集（絕對不要進版控）
+data/*
+!data/.gitkeep
+
+# 模型權重
+*.pth
+*.pt
+*.ckpt
+
+# 結果圖檔以外的大檔
+results/*.npy
+
+# macOS
+.DS_Store
+
+# Notebook 檢查點
+.ipynb_checkpoints/
